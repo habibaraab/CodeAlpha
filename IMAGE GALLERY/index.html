@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <img src="1.JPEG" alt="photo 1" onclick="openModal(this.src)">
+        <img src="2.JPG" alt="photo 2" onclick="openModal(this.src)">
+        <img src="3.JPG" alt="photo 3" onclick="openModal(this.src)">
+        <img src="4.JPG" alt="photo 4" onclick="openModal(this.src)">
+        <img src="5.JPG" alt="photo 5" onclick="openModal(this.src)">
+        <img src="6.JPG" alt="photo 6" onclick="openModal(this.src)">
+        <img src="7.JPG" alt="photo 7" onclick="openModal(this.src)">
+        <img src="8.JPG" alt="photo 8" onclick="openModal(this.src)">
+        <img src="9.JPG" alt="photo 9" onclick="openModal(this.src)">
+        <img src="10.JPG" alt="photo 10" onclick="openModal(this.src)">
+        <img src="11.JPG" alt="photo 11" onclick="openModal(this.src)">
+        <img src="12.JPG" alt="photo 12" onclick="openModal(this.src)">
+        <img src="13.JPG" alt="photo 13" onclick="openModal(this.src)">
+        <img src="14.JPG" alt="photo 14" onclick="openModal(this.src)">
+    </div>
+
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <style>
+        body{
+        background-image: url('15.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        
+        
+        }
+        
+        
+            </style>
+        
+</body>
+
+</html>
